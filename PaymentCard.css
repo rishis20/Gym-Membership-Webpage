@@ -1,0 +1,87 @@
+.author {
+
+    position: fixed;
+  
+    top: 12px;
+  
+    /* bottom: 12px; */
+  
+    right: 20px;
+  
+    background-color: #ffff00a0;
+  
+    color: darkblue;
+  
+    font-size: 28px;
+  
+    font-family: sans-serif;
+  
+    z-index: 9999;
+  
+    padding: 4px;
+  
+  }
+  
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: grey;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.payment-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Increased spacing */
+    background-color: grey;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+input[type="text"], input[type="month"] {
+    padding: 10px;
+    font-size: 1em;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.payment-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.payment-buttons button {
+    padding: 10px;
+    background-color: #FF6600;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.payment-buttons button:hover {
+    background-color: #cc5200;
+}
+
+#errorMsg {
+    color: red;
+    font-size: 0.95em;
+    margin-top: 10px;
+}

@@ -1,0 +1,119 @@
+.author {
+
+    position: fixed;
+  
+    top: 12px;
+  
+    right: 20px;
+  
+    background-color: #ffff00a0;
+  
+    color: darkblue;
+  
+    font-size: 28px;
+  
+    font-family: sans-serif;
+  
+    z-index: 9999;
+  
+    padding: 4px;
+  
+  }
+
+body {
+    margin: 0;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #a0a0a0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: grey;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: orange;
+    width: 90%;
+    max-width: 800px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+thead th {
+    background-color: #FF6600;
+    color: white;
+    padding: 14px;
+    text-align: left;
+}
+
+tbody td {
+    padding: 12px 14px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+
+tr:hover {
+    background-color: #f2f2f2;
+}
+
+tr.selected {
+    background-color: #cc5200 !important;
+    color: white;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="date"], select {
+    padding: 10px;
+    font-size: 1em;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.payment-buttons button, .payment-buttons a {
+    flex: 1;
+    text-align: center;
+    padding: 12px;
+    background-color: #FF6600;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;  /* Remove underline from link */
+    transition: background-color 0.2s ease-in-out;
+    border: none; /* Ensures the button doesn't have a default border */
+}
+
+.payment-buttons button:hover, .payment-buttons a:hover {
+    background-color: #cc5200;
+}
+
+.hidden {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+}
