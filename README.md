@@ -1,7 +1,6 @@
 # Gymnasio: Gym Management Platform
 
-**Team:** [Insert Team Name Here]  
-**Contributors:** Rishi Shah, Alvaro [Last Name], Jorge [Last Name], Mikel [Last Name]
+**Contributors:** Rishi Shah, Alvaro Sola Gonzalvo , Jorge Calonge, Mikel 
 
 ---
 
